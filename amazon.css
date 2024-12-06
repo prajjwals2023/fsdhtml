@@ -1,0 +1,45 @@
+.container{
+    display: grid;grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(4,1fr);
+}
+.header{
+    grid-row:1/2; grid-column: 1/13;background-color:rgb(129, 238, 82);
+    height:70px;border: 1px solid red;
+    display: flex;justify-content: space-evenly ;align-items:center;
+}
+.navbar{
+    grid-row:2/3; grid-column: 1/13;background-color: rgb(15,17,17); color: aquamarine;border: 1px solid red;
+
+}
+ul li{
+    display: inline-block;padding-top:10px;margin-left: 20px;padding: auto;
+}
+
+li:hover{
+    background-color:rgb(94, 179, 229);
+}
+.wallpaper{
+    grid-row:3/4; grid-column: 1/13;height:100%;
+}
+.cards{
+    grid-row:4/5; grid-column: 1/13;
+display: flex;justify-content:space-evenly;
+}
+.card1,.card2,.card3,.card4{
+    display:flex; justify-content: start;
+    height: 300px; border: 1px solid red;width: 250px;
+}
+.card1{
+    display:grid;grid-template-columns: repeat(2,1fr);grid-template-rows: repeat(2,1fr);height: auto;width: auto;
+}
+
+ .card2{
+        display:grid;grid-template-columns: repeat(2,1fr);grid-template-rows: repeat(2,1fr);height: auto;width: auto;
+    }
+.card3{
+        display:grid;grid-template-columns: repeat(2,1fr);grid-template-rows: repeat(2,1fr);height: auto;width: auto;
+    }
+    
+.card4{
+            display:grid;grid-template-columns: repeat(2,1fr);grid-template-rows: repeat(2,1fr);height: auto;width: auto;
+        }
